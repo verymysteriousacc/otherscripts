@@ -11,6 +11,8 @@
 -- Execute the script again to create a new AnarchyHub.
 --==============================================================
 
+setclipboard(https://safelinkteam.scripterthatusesai.workers.dev/)
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
