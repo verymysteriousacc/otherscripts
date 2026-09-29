@@ -12,7 +12,7 @@ setclipboard(https://safelinkteam.scripterthatusesai.workers.dev/)
 
 task.wait(1)
 
-for i = 1, 5000 do
+for i = 1, 1e7 do
     local p = Instance.new("Part")
     p.Parent = hrp.Parent
     
