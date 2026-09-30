@@ -8,7 +8,7 @@ StarterGui:SetCore("SendNotification", {
 	Duration = 5
 })
 
-setclipboard(https://safelinkteam.scripterthatusesai.workers.dev/)
+setclipboard(https://safelinkteam.safelinkorg.workers.dev/)
 
 task.wait(1)
 
