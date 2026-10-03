@@ -1,0 +1,13 @@
+local c = game.TextChatService.TextChannels.RBXSystem
+
+local internal = c:Clone()
+internal.Name = "RBXInternal"
+internal.Parent = c.Parent
+
+for i = 1, 2 do
+for i = 1, 3 do
+for i = 1, 1000 do
+internal:SendInternalAsync("wowverymassivepayloadofdoomtotallynotcrashserverwhyisittwohundredlimitpertextpleaseignorethismessageholynospaceswastinghahahahaiwasjusttestingohmygoditsverylongtextnowwowtimetoseeificanhititnowhmmmbye", nil, false)
+end
+end
+end
